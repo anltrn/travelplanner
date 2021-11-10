@@ -1,0 +1,29 @@
+{
+  "name": "travelplan-generator",
+  "version": "0.0.1",
+  "description": "TravelPlan Generator Node.js App",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "format": "prettier --write .",
+    "test": "jest --coverage --testTimeout=10000 --detectOpenHandles"
+  },
+  "author": "anilturan",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jest": "^27.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "lodash.permutations": "^1.0.0",
+    "mongoose": "^6.0.12",
+    "supertest": "^6.1.6"
+  },
+  "devDependencies": {
+    "@trendyol/jest-testcontainers": "^2.1.0",
+    "prettier": "^2.4.1"
+  }
+}
